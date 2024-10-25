@@ -8,6 +8,7 @@ body {
   font-family: Inter, serif;
   background: rgba(19, 8, 8, 0.89);
   color: white;
+  
 }
 
 .container {
@@ -18,7 +19,10 @@ body {
 .peraColor {
   color: rgba(255, 255, 255, 0.5);
 }
-
+section{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -341,3 +345,77 @@ select {
   font-size: 18px;
   border-radius: 16px;
 }
+/*  Meet Our Team */
+.Team{
+   padding: 20px;
+   background-color: black;
+   
+}
+.MeetTeamContent{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.MeetTeamContent h1{
+ font-size: 48px;
+ font-weight: 900;
+ }
+ .teamCard{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.10);
+ }
+ .teamCard div{
+   position: relative;
+ }
+ .teamCard div img{
+  width: 100%;
+  height: 300px;
+  border-radius: 16px;
+ }
+ .shortTitle{
+  position: absolute;
+  bottom: 60px;
+  padding: 10px;
+ }
+
+ /* Footer  */
+ footer{
+  background: rgba(22, 8, 8, 0.1);
+  padding: 20px;
+ }
+ .footerContainer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+ }
+ .footerContainer div ul li{
+  list-style-type: none;
+    
+ }
+ .footerContainer div{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ }
+ .footerContainer div ul li{
+  margin-top: 10px;
+   
+ }
+ .footerContainer div ul li:hover{
+  cursor: pointer;
+  color: #4d4848;
+ }
+ .footerBrand{
+  color: #E6533C;
+  font-size: 70px;
+ font-weight: 800;
+  }
+  .getStarted{
+    margin-top: 10px;
+  }
