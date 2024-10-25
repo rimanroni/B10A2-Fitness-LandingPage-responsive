@@ -52,6 +52,14 @@
   .exercise2 , .exercise4{
     grid-column: span 1;
  }
+ .chartAndBMI{
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  align-items: center;
+ }
+ .calculatorBrand{
+  font-size: 30px;
+ }
 }
 
 /* Tablet Portrait (426px - 768px) */
