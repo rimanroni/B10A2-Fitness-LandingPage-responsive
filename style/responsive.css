@@ -46,6 +46,12 @@
   .runanextra article h1{
     font-size: 34px;
   }
+  .trainings-imgCard-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .exercise2 , .exercise4{
+    grid-column: span 1;
+ }
 }
 
 /* Tablet Portrait (426px - 768px) */
