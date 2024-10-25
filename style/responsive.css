@@ -1,1 +1,62 @@
- 
+@media only screen and (max-width: 576px)  {
+    /* Styles for devices up to 425px wide (Mobile L) */
+    .brand  {
+        font-size: 25px;
+    }
+    nav ul li a{
+        display: none;
+      }
+      .menu{
+        display: block;
+      }
+      .banner{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+      }
+      .banner-container h1{
+        font-size: 30px;
+      }
+      .banner-img img{
+        width: 80%;
+      }
+      .banner-container button{
+        width: auto;
+      }
+      .freeWorkout{
+        right: -55px;
+      }
+      .videoTutorial{
+        left: 4px;
+      }
+   }
+
+   /* Tablet Portrait (426px - 768px) */
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    /* Styles for tablets and larger phones */
+     
+    .brand  {
+        font-size: 25px;
+    }
+    nav ul li a{
+        display: none;
+      }
+      .menu{
+        display: block;
+      }
+      .banner{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+      }
+      .banner-container h1{
+        font-size: 30px;
+      }
+      .banner-img img{
+        width: 50%;
+      }
+      .banner-container button{
+        width: auto;
+      }
+     
+  }
+  
+  

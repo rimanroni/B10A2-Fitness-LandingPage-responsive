@@ -1,4 +1,144 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Michroma&display=swap"); * {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Inter, serif;
+  background: rgba(19, 8, 8, 0.89);
+  color: white;
+}
+
+.container {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.peraColor {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.brand {
+  text-decoration: none;
+  color: rgb(230, 83, 60);
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.menu {
+  display: none;
+}
+
+.shape {
+  font-family: "Dancing Script", cursive;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.home {
+  background-color: rgb(230, 83, 60);
+  padding: 10px 20px;
+  border-radius: 24px;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+.banner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  padding: 20px;
+}
+
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.banner-container h1 {
+  color: rgb(255, 255, 255);
+  font-size: 78px;
+  font-weight: 900;
+}
+
+.banner-container button {
+  padding: 10px;
+  width: 203px;
+  border: none;
+  border-radius: 17px;
+  color: white;
+}
+
+.joinBtn {
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+}
+
+.DownloadBtn {
+  border-radius: 42px;
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255) !important;
+}
+
+.banner-img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-img img {
+  width: 50%;
+}
+
+.freeWorkout {
+  position: absolute;
+  top: 116px;
+  right: 60px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+}
+
+.videoTutorial {
+  position: absolute;
+  bottom: 13px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  left: 111px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(230, 83, 60);
+  border-radius: 50%;
 }
